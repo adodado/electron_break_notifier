@@ -1,0 +1,26 @@
+{
+  "name": "break-notifier",
+  "version": "0.0.1",
+  "description": "Small electron systemtray application for break notifications",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adodado/electron_break_notifier.git"
+  },
+  "author": "Admir Cosic",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/adodado/electron_break_notifier/issues"
+  },
+  "homepage": "https://github.com/adodado/electron_break_notifier#readme",
+  "devDependencies": {
+    "electron": "^14.0.1"
+  },
+  "dependencies": {
+    "node-notifier": "^10.0.0"
+  }
+}
